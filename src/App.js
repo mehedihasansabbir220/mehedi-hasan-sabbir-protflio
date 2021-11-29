@@ -3,7 +3,6 @@ import "./styles.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import { ScrollToTop } from "./Components/Scroll/Scrolltotop";
 import { Preloader } from "./Components/Pre";
-// import { Projects } from "./Components/Projects/Projects";
 // import { Github } from "./Components/About/Github";
 // import { Link, Route, Switch, useLocation } from "react-router-dom";
 // import { Particle } from "./Components/Home/Particle";
@@ -13,6 +12,7 @@ import { Footer } from "./Components/Footer/Footer";
 import { Home } from "./Components/Home/Home";
 import { Home2 } from "./Components/Home/Home2";
 import { Navbarjsx } from "./Components/Navbar/Navbar";
+import { Projects } from "./Components/Projects/Projects";
 
 export default function App() {
   const [load, setload] = React.useState(false);
@@ -35,9 +35,9 @@ export default function App() {
         <section id="#about">
           <About />
         </section>
-        {/* <section id="#projects">
+        <section id="#projects">
           <Projects />
-        </section> */}
+        </section>
         <section id="#contact">
           <Contact />
         </section>
