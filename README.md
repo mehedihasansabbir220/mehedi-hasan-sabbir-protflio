@@ -31,12 +31,19 @@ More...
 
 
 
-#Dependencies
-emailjs-com
-bootstrap
-react
-react-bootstrap
-react-dom
-react-github-clendar
-React Parallax Tilt
-React Particles Js 
+##Dependencies
+1.emailjs-com              
+
+2.bootstrap          
+
+3.react     
+
+4.react-bootstrap
+
+5.react-dom
+
+6.react-github-clendar 
+
+7.React Parallax Tilt 
+
+8.React Particles Js 
