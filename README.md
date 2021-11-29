@@ -28,3 +28,15 @@
 8.React Icons
 9.React Router Dom
 More...
+
+
+
+#Dependencies
+emailjs-com
+bootstrap
+react
+react-bootstrap
+react-dom
+react-github-clendar
+React Parallax Tilt
+React Particles Js 
