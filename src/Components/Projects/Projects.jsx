@@ -3,13 +3,13 @@ import { Button, Card, Col, Container, Row } from "react-bootstrap";
 import "./Projects.css";
 import sudokologo from "../Assets/S.png";
 import Clockifylogo from "../Assets/Clockify.png";
+import TestAdmin from "../Assets/test-Admin.png";
 import Covidlogo from "../Assets/21.png";
 import Travelocitylogo from "../Assets/22.png";
 import Airgaragelogo from "../Assets/23.png";
 import MotorByke from "../Assets/24.png";
 import { DiReact, DiJavascript, DiGithubBadge, DiHtml5 } from "react-icons/di";
 import { SiRedux, SiStyledcomponents,SiMaterialui} from "react-icons/si";
-// import { SiRedux, SiStyledcomponents, SiMaterialui } from "react-icons/si";
 import { FaLink, FaCss3 } from "react-icons/fa";
 export const Projects = () => {
   return (
@@ -22,6 +22,46 @@ export const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={6} className="project-card">
+            <Card className="project-card-view" style={{ textAlign: "center" }}>
+              <Card.Img variant="top" src={TestAdmin} alt="Clockify Clone" />
+              <Card.Body>
+                <Card.Title style={{ fontWeight: "800" }}>
+                 Admin Panel  
+                </Card.Title>
+                <Card.Text style={{ textAlign: "justify" }}>
+                This is Website Admin Panel Here You Can add Product See Youser Delate a Product and Also Update Tham .
+                </Card.Text>
+                <div className="Techstacks">
+                  <DiReact className="Techstacks-icons" />
+                  <SiRedux className="Techstacks-icons" />
+                  <SiStyledcomponents className="Techstacks-icons" />
+                  <DiJavascript className="Techstacks-icons" />
+                  <SiMaterialui className="Techstacks-icons" />
+                  <FaCss3 className="Techstacks-icons" />
+                  <DiHtml5 className="Techstacks-icons" />
+                </div>
+                <Button
+                  variant="primary"
+                  style={{ marginTop: "5%" }}
+                  href="https://github.com/mehedihasansabbir220/Test-Admin"
+                  target="_blank"
+                >
+                  {" "}
+                  <DiGithubBadge /> Github
+                </Button>
+                <Button
+                  variant="primary"
+                  style={{ marginLeft: "5%", marginTop: "5%" }}
+                  href="https://happy-mayer-0c4b02.netlify.app/#/login"
+                  target="_blank"
+                >
+                  {" "}
+                  <FaLink /> Link
+                </Button>
+              </Card.Body>
+            </Card>
+          </Col>
           <Col md={6} className="project-card">
             <Card className="project-card-view" style={{ textAlign: "center" }}>
               <Card.Img variant="top" src={Clockifylogo} alt="Clockify Clone" />

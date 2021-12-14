@@ -114,6 +114,15 @@ export const Navbarjsx = () => {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/Blog"
+                onClick={(() => setexpand(false), () => setpathstate("#Blog"))}
+              >
+                <AiOutlineHome style={{ marginBottom: "2px" }} /> Blog
+              </Nav.Link>
+            </Nav.Item>
           </Nav>
         </Navbar.Collapse>
       </Container>
